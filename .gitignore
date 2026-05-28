@@ -1,0 +1,61 @@
+# Git ignore file for a Python project on macOS
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS folder metadata
+Icon?
+._*
+
+# Spotlight / indexing
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Time Machine
+.Backups.backupdb
+
+# Finder settings in folders
+.AppleDB
+.AppleDesktop
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Model weights / outputs
+*.pth
+*.pt
+*.ckpt
+outputs/
+runs/
+
+
+
+# Ignore all image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
