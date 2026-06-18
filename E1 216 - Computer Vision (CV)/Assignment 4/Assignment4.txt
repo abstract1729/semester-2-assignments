@@ -1,0 +1,13 @@
+For homework 4 you will implement a simple segmentation algorithm to 
+find large or dominant 3D planes in point clouds. You should show your
+results for two datasets, i.e. the sparse and dense 3D reconstructions of
+the main building using COLMAP.
+
+You can implement any method of your choice. One possibility is to use a
+modification of the RANSAC idea. A key issue to think about it is the
+very large number of points you have to deal with in the aforementioned
+datasets. You should think of how you can find planes in subsets of
+points and then use the result to develop the final answer.
+
+In your submission briefly sketch your scheme, key implementational details and your 
+findings/observations

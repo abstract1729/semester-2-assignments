@@ -1,0 +1,9 @@
+As discussed in the last class, for the second homework, you will implement a solution to align images using homographies to build a mosaic. You should demonstrate your method on images you take. Try a few sets, not just a single example. Submit this homework as a pdf (not hardcopy). It should show your results and also have a note on your observations - what works, what does not work, special tricks used, other important observations etc. You need not submit code but should be able to demonstrate working code if asked.
+
+Basic steps for the assignment
+
+1. Match features between image pairs. Use a reliable implementation of SIFT or other suitable feature detection and matching methods.(Question to think about: Which pairs should you do this for?)
+
+2. Implement homography estimation using the normalisation of scale discussed in class. Use this in a RANSAC loop . Alternately you could also implement an M-estimator solution if you wish. Your report should state what choices you have made here.
+
+3. Generate image mosaic by warping all images to a common frame of reference.

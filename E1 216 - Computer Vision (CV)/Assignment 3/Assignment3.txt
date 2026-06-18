@@ -1,0 +1,5 @@
+Here's homework 3 for the course. It is about estimating epipolar geometry.
+
+Use the images you have individually collected to run COLMAP. Select a few pairs of image that have a sufficient amount of overlap as well as sufficient translation between them. You can use the COLMAP camera visualization to figure this out.
+
+For each pair, estimate the epipolar geometry using the eight point algorithm (using SIFT features with RANSAC). You can use the individual camera calibration matrices obtained by COLMAP to remove the effect for calibration. Estimate the rotation and translation for each pair. Using the relative rotation and translation between these cameras estimated by COLMAP as the ground truth, figure out the rotation and translation direction error for each pair. Explain what you think these result tell you.
